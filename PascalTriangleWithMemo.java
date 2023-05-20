@@ -26,7 +26,6 @@ public class PascalTriangleWithMemo {
             return memo.get(row).get(col);
         }
         int coef = getCoef(row - 1, col - 1) + getCoef(row - 1, col);
-        // Store the computed coefficient in the memoization table
         memo.putIfAbsent(row, new HashMap<>());
         memo.get(row).put(col, coef);
         return coef;
