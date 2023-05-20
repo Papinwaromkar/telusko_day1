@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class pascaltriangle {
+public class PascalTriangle {
     public static void main(String[] args){
         System.out.println("Enter the no of lines ");
         Scanner sc =new Scanner(System.in);
